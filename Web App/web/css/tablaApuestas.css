@@ -1,0 +1,38 @@
+/*
+Name: Jossie Esteban Fernández Salas
+Email: jossie.fernandez.salas@gmail.com
+Linkedin: linkedin.com/in/jossiefernandez/
+ */
+
+.tablaApuestas {
+    border: none;
+    border-top: 2px solid darkslategrey;
+    border-bottom: 2px solid darkslategrey;
+    border-collapse: collapse;
+    font-size: smaller;
+}
+
+.tablaApuestas th,
+.tablaApuestas td {
+    border: none;
+    border-right: 1px solid darkslategrey;
+    padding: 4px 12px;
+}
+
+.tablaApuestas tr td:nth-child(n+5) {
+    border-right: none;
+}
+
+.tablaApuestas tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+
+.tablaApuestas th {
+    background-color: darkred;
+    border: none;
+    color: blanchedalmond;
+}
+
+.tablaApuestas td {
+}
+

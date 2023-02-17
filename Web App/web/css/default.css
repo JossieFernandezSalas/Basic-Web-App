@@ -1,0 +1,66 @@
+/*
+Name: Jossie Esteban Fernández Salas
+Email: jossie.fernandez.salas@gmail.com
+Linkedin: linkedin.com/in/jossiefernandez/
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+section{
+    display: flex;
+}
+
+#wrapper {
+    font-family: Arial;
+    
+}
+
+#navi{
+    margin: 0;
+    padding: 0;
+    color: coral;
+    font-size: 24px;
+    background-color: darkslategray;
+    width: 100%;
+}
+
+#navi a{
+    color: coral;
+}
+
+#navi a:hover{
+    color: white;
+}
+
+#padre{
+        display: flex;
+    flex-flow: column nowrap;
+    justify-center: center;
+}
+
+#pNav{
+    font-size: 16px;
+    color: coral;
+}
+
+#contents {
+    padding: 4px 24px;
+}
+
+.datos{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
